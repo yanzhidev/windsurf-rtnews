@@ -76,6 +76,9 @@ async def generate_news_stream():
             # 广播给所有WebSocket客户端
             await broadcast_news(processed_news)
             
+            # 广播更新的统计信息
+            await broadcast_statistics()
+            
             # 等待3秒
             await asyncio.sleep(3)
             
@@ -89,6 +92,25 @@ async def broadcast_news(news_item: Dict[str, Any]):
         for connection in active_connections:
             try:
                 await connection.send_text(json.dumps(news_item, ensure_ascii=False))
+            except:
+                disconnected_clients.append(connection)
+        
+        # 移除断开的连接
+        for client in disconnected_clients:
+            active_connections.remove(client)
+
+async def broadcast_statistics():
+    """向所有连接的客户端广播统计信息"""
+    if active_connections:
+        disconnected_clients = []
+        stats_message = {
+            "type": "statistics",
+            "data": news_processor.get_statistics()
+        }
+        
+        for connection in active_connections:
+            try:
+                await connection.send_text(json.dumps(stats_message, ensure_ascii=False))
             except:
                 disconnected_clients.append(connection)
         
