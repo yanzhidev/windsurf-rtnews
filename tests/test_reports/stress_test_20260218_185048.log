@@ -1,0 +1,15 @@
+2026-02-18 18:50:48,924 - stress_test_runner - INFO - run_quick_stress_test:187 - 开始运行快速压力测试
+2026-02-18 18:51:38,948 - stress_test_runner - ERROR - run_quick_stress_test:228 - 快速压力测试失败: 'float' object has no attribute 'total_seconds'
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:237 - ================================================================================
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:238 - 压力测试综合报告
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:239 - ================================================================================
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:241 - 测试开始时间: 2026-02-18 18:51:38
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:242 - 总测试时长: 0.00秒
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:243 - 执行测试数量: 0
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:278 - 
+系统资源峰值:
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:279 -   CPU使用率峰值: 0.0%
+2026-02-18 18:51:38,949 - stress_test_runner - INFO - generate_summary_report:280 -   内存使用率峰值: 0.0%
+2026-02-18 18:51:38,950 - stress_test_runner - INFO - generate_summary_report:321 - 
+综合报告已保存到: test_reports/stress_test_summary_20260218_185138.json
+2026-02-18 18:51:38,950 - stress_test_runner - INFO - generate_summary_report:322 - ================================================================================

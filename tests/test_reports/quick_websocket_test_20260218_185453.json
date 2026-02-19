@@ -1,0 +1,20 @@
+{
+  "test_name": "quick_websocket_test",
+  "start_time": "2026-02-18T18:54:22.386864",
+  "end_time": "2026-02-18T18:54:53.362370",
+  "duration": 30.975506,
+  "total_requests": 10,
+  "successful_requests": 10,
+  "failed_requests": 0,
+  "avg_response_time": 0.015931057929992675,
+  "min_response_time": 0.0061800479888916016,
+  "max_response_time": 0.025972366333007812,
+  "p95_response_time": 0.025972366333007812,
+  "p99_response_time": 0.025972366333007812,
+  "requests_per_second": 0.32283572704187624,
+  "peak_cpu_percent": 2.1,
+  "peak_memory_percent": 0.18520355224609375,
+  "avg_cpu_percent": 0.38,
+  "avg_memory_percent": 0.1847076416015625,
+  "errors": []
+}

@@ -1,0 +1,21 @@
+2026-02-18 18:54:22,386 - stress_test_runner - INFO - run_quick_stress_test:187 - 开始运行快速压力测试
+2026-02-18 18:56:13,511 - stress_test_runner - ERROR - run_quick_stress_test:228 - 快速压力测试失败: unsupported operand type(s) for /: 'float' and 'datetime.timedelta'
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:238 - ================================================================================
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:239 - 压力测试综合报告
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:240 - ================================================================================
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:242 - 测试开始时间: 2026-02-18 18:56:13
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:243 - 总测试时长: 61.01秒
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:244 - 执行测试数量: 2
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:253 - 
+WebSocket测试 (1个):
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:255 -   quick_websocket_test: 成功率 100.0%, 平均响应时间 15.9ms
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:261 - 
+API测试 (1个):
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:263 -   quick_api_test: 成功率 100.0%, RPS 170.8
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:279 - 
+系统资源峰值:
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:280 -   CPU使用率峰值: 36.7%
+2026-02-18 18:56:13,514 - stress_test_runner - INFO - generate_summary_report:281 -   内存使用率峰值: 0.2%
+2026-02-18 18:56:13,515 - stress_test_runner - INFO - generate_summary_report:322 - 
+综合报告已保存到: test_reports/stress_test_summary_20260218_185613.json
+2026-02-18 18:56:13,515 - stress_test_runner - INFO - generate_summary_report:323 - ================================================================================

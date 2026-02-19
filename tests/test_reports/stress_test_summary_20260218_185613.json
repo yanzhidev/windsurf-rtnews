@@ -1,0 +1,31 @@
+{
+  "test_time": "2026-02-18T18:56:13.514923",
+  "total_duration": 61.006855,
+  "total_tests": 2,
+  "websocket_tests": 1,
+  "api_tests": 1,
+  "memory_tests": 0,
+  "peak_cpu_percent": 36.7,
+  "peak_memory_percent": 0.20189285278320312,
+  "test_results": [
+    {
+      "name": "quick_websocket_test",
+      "duration": 30.975506,
+      "success_rate": 100.0,
+      "avg_response_time": 0.015931057929992675,
+      "requests_per_second": 0.32283572704187624,
+      "peak_cpu": 2.1,
+      "peak_memory": 0.18520355224609375
+    },
+    {
+      "name": "quick_api_test",
+      "duration": 30.031349,
+      "success_rate": 100.0,
+      "avg_response_time": 0.0040231236705073605,
+      "requests_per_second": 170.82149722944516,
+      "peak_cpu": 36.7,
+      "peak_memory": 0.20189285278320312
+    }
+  ],
+  "top_errors": []
+}

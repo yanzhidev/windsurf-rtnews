@@ -1,0 +1,12 @@
+{
+  "test_time": "2026-02-18T18:51:38.949735",
+  "total_duration": 0,
+  "total_tests": 0,
+  "websocket_tests": 0,
+  "api_tests": 0,
+  "memory_tests": 0,
+  "peak_cpu_percent": 0,
+  "peak_memory_percent": 0,
+  "test_results": [],
+  "top_errors": []
+}
